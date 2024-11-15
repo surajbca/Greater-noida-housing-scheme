@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register form</title>
+    <!--Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!--boostrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--boostrap javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!--main css-->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./register.css">
+</head>
+
+<body>
+    <!--timesheet start-->
+    <div class="timesheetDiv">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
+                <!-- <h2 class="fw-bold">Current Indian Standard Time (IST)</h2> -->
+                <span id="dayName"></span>
+                <span id="indianTime"></span>
+                <span>Current Indian Standard Time (IST)</span>
+                <!-- <div id="dayName" class="day-display"></div> -->
+                <!-- <div id="indianTime" class="time-display"></div> -->
+            </div>
+        </div>
+    </div>
+    <!--timesheet end-->
+    <!--timesheet end-->
+    <!--contact section start-->
+    <!-- <section>
+            <div class="row">
+                <div class="col-6"></div>
+                <div class="col-6 text-center">
+                    <p><span><i class="fa-solid fa-mobile-button"></i></span><span>+91 9098493807</span></p>
+                    <p><span><i class="fa-solid fa-envelope"></i></span><span>demo@gmail.com</span></p>
+                </div>
+            </div>
+        </section> -->
+    <!--contact section end-->
+    <!--Navbar start-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light  ">
+        <div class="container-fluid text-center">
+            <a class="navbar-brand" href="#"><i class="fa-solid fa-house"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    <a href="./register.html" class="nav-link active">Apply Online</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--navbar end-->
+
+    <div class="container mt-3">
+        <section>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                        Apply Online for Greater noida housing scheme
+                    </li>
+                </ol>
+            </nav>
+        </section>
+
+        <div class="mt-5">
+            <h3 class="text-center">APPLICATION FOR BOOKING</h3>
+            <div class="row mt-4">
+                <!-- Form Section -->
+                <div class="col-md-8">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-12 mb-2">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter Name">
+                            </div>
+                            <div class="form-group col-md-12 mb-2">
+                                <label for="fatherName">Father's Name/Husband Name</label>
+                                <input type="text" class="form-control" id="fatherName"
+                                    placeholder="Enter Father's Name/Husband Name">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12 mb-2">
+                                <label for="birthDate">Birth Date</label>
+                                <input type="date" class="form-control" id="birthDate">
+                            </div>
+                            <div class="form-group col-md-12 mb-2">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="example@example.com">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12 mb-2">
+                                <label for="phoneNumber">Phone Number</label>
+                                <input type="text" class="form-control" id="phoneNumber" placeholder="XXXXXXXXXX">
+                            </div>
+                            <div class="form-group col-md-12 mb-2">
+                                <label for="aadharNumber">Aadhar Number</label>
+                                <input type="text" class="form-control" id="aadharNumber" placeholder="XXXXXXXXXXXX">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12 mb-2">
+                                <label for="panNumber">PAN Number</label>
+                                <input type="text" class="form-control" id="panNumber" placeholder="AAAAA9999A">
+                            </div>
+                            <div class="form-group col-md-12 mb-2">
+                                <label for="address">Address</label>
+                                <input type="text" class="form-control" id="address" placeholder="Enter Address">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-12 mb-2">
+                                <label for="city">City</label>
+                                <input type="text" class="form-control" id="city" placeholder="Enter City">
+                            </div>
+                            <div class="form-group col-md-12 mb-2">
+                                <label for="zipCode">Zip Code</label>
+                                <input type="text" class="form-control" id="zipCode" placeholder="Enter Zip Code">
+                            </div>
+                        </div>
+
+                        <!-- Dropdowns -->
+                        <div class="form-group mb-2">
+                            <label for="quota">Select Quota</label>
+                            <select class="form-control" id="quota">
+                                <option>Select Quota</option>
+                                <!-- Add options as needed -->
+                            </select>
+                        </div>
+                        <div class="form-group mb-2">
+                            <label for="floor">Select Floor</label>
+                            <select class="form-control" id="floor">
+                                <option>Select Floor</option>
+                                <!-- Add options as needed -->
+                            </select>
+                        </div>
+                        <div class="form-group mb-2">
+                            <label for="size">Select Size</label>
+                            <select class="form-control" id="size">
+                                <option>Select Size</option>
+                                <!-- Add options as needed -->
+                            </select>
+                        </div>
+
+                        <!-- Terms and Conditions -->
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="terms">
+                            <label class="form-check-label" for="terms">By clicking checkbox, you agree to the <a
+                                    href="#">Terms
+                                    and Conditions</a> set out by this site.</label>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="d-flex mt-2">
+                            <button type="submit" class="btn btn-success btn-block">Submit</button>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Payment Information Section -->
+                <div class="col-md-4">
+                    <h5>For Payment through NEFT/Bank Transfer</h5>
+                    <div class="card p-3">
+                        <img src="qr-code.png" class="card-img-top" alt="QR Code">
+                        <div class="card-body">
+                            <p class="mb-1"><strong>Account Title:</strong> M/S ROF Infratech and Housing Pvt Ltd</p>
+                            <p class="mb-1"><strong>Account No:</strong> 777705000372</p>
+                            <p class="mb-1"><strong>Bank Name:</strong> ICICI Bank</p>
+                            <p class="mb-1"><strong>Branch:</strong> Gurugram - 122001</p>
+                            <p><strong>IFSC Code:</strong> ICIC0001652</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="">
+                <div class="contact-header">
+                    <h2>Greater noida housing scheme</h2>
+                </div>
+                <div class="contact-subheader">
+                    <p>Contact Us</p>
+                    <div class="text-center">
+                        <i class="fa-solid fa-location-dot fs-1 text-success"></i>
+                    </div>
+                </div>
+
+                <div class="row text-center">
+                    <div class="col-md-4 contact-info">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h5>EMAIL</h5>
+                        <p>Support@affordableplot@gmail.com</p>
+                    </div>
+                    <div class="col-md-4 contact-info">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <h5>HELPLINE</h5>
+                        <p>+91 9098493807</p>
+                    </div>
+                    <div class="col-md-4 contact-info">
+                        <i class="fa-solid fa-map"></i>
+                        <h5>REGISTERED OFFICE</h5>
+                        <p>Building No. 80, 1st Floor, Sector-44<br>Gurugram 122003</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Copyright © 2024 Greater noida housing scheme - All rights reserved.</p>
+            <p class="disclaimer">Disclaimer: Prices mentioned are subject to change without notice and properties
+                mentioned
+                are subject to availability. This is the official website for Greater noida housing scheme.
+            </p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

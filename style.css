@@ -1,0 +1,142 @@
+ .timesheetDiv{
+    background-color: #6ec1e4;
+ }
+ .time-display {
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+            color: #007bff;
+        }
+        .day-display {
+            font-size: 1.5rem;
+            font-weight: normal;
+            text-align: center;
+            color: #555;
+            margin-top: 5px;
+        }
+.banner {
+            background-color: #6ec1e4;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .image-gallery {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .image-gallery img {
+            border-radius: 5px;
+            width: 100%;
+            height: auto;
+            max-width: 200px;
+            max-height: 150px;
+        }
+        .registration-button {
+            background-color: #003399;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .registration-button:hover {
+            background-color: #001f66;
+        }
+ .apply-button {
+            background-color: red;
+            color: white;
+            font-weight: bold;
+            border-radius: 20px;
+            padding: 8px 20px;
+            text-align: center;
+            display: inline-block;
+            cursor: pointer;
+        }
+        .apply-button:hover {
+            background-color: darkred;
+        }
+        .tab-content {
+            margin-top: 10px;
+        }
+        .project-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .project-card .project-info {
+            line-height: 1.6;
+        }
+        .project-links a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .project-links a:hover {
+            text-decoration: underline;
+        }
+       .glarry{
+          max-width: 800px; 
+          margin: 0 auto;
+
+        /* Style adjustments for mobile */
+@media (max-width: 767px) {
+    .project-card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-info, .project-links {
+        width: 100%;
+        text-align: center;
+    }
+    .project-links a {
+        display: inline-block;
+        margin-bottom: 8px;
+    }
+}
+
+/* Styling for the "Apply Online" button */
+.apply-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.apply-button:hover {
+    background-color: #0056b3;
+}
+
+}
+.icon-color{
+    color: #007bff;
+}
+.footer {
+            background-color: #111; 
+            color: #bbb; 
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        .footer a {
+            color: #00aaff; /* Bright blue links */
+            text-decoration: none;
+            margin: 0 5px;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .footer p {
+            margin-bottom: 5px;
+        }
+        .disclaimer {
+            font-size: 0.8rem;
+            line-height: 1.4;
+        }
